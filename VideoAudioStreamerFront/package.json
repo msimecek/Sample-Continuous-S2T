@@ -1,0 +1,34 @@
+{
+  "name": "video-text",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.0-preview2-35157",
+    "@aspnet/signalr-protocol-msgpack": "^1.1.0-preview2-35157",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "office-ui-fabric-core": "^9.6.0",
+    "office-ui-fabric-js": "^1.5.0",
+    "typescript": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
